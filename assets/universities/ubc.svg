@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 330 150" role="img" aria-labelledby="title">
+  <title id="title">The University of British Columbia</title>
+  <rect width="330" height="150" fill="#002145"/>
+  <g fill="#fff">
+    <circle cx="165" cy="75" r="48" fill="none" stroke="#fff" stroke-width="5"/>
+    <text x="126" y="91" font-family="Georgia, serif" font-size="47" font-weight="700">UBC</text>
+  </g>
+</svg>

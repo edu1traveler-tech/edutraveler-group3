@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Варианты драматургии эфира</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #172033;
+      --muted: #657084;
+      --line: #dfe4ec;
+      --bg: #f7f8fb;
+      --card: #ffffff;
+      --accent: #1368e8;
+      --accent-soft: #e9f1ff;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Inter, Segoe UI, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--ink);
+    }
+    main {
+      width: min(1180px, calc(100vw - 48px));
+      margin: 0 auto;
+      padding: 44px 0 56px;
+    }
+    h1 {
+      margin: 0 0 12px;
+      max-width: 860px;
+      font-size: 42px;
+      line-height: 1.04;
+      letter-spacing: 0;
+    }
+    .subtitle {
+      margin: 0 0 28px;
+      max-width: 760px;
+      color: var(--muted);
+      font-size: 18px;
+      line-height: 1.5;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 18px;
+      margin: 28px 0;
+    }
+    .card {
+      min-height: 520px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--card);
+      overflow: hidden;
+      box-shadow: 0 18px 40px rgba(34, 45, 66, 0.08);
+    }
+    .mock {
+      min-height: 265px;
+      padding: 18px;
+      background: linear-gradient(180deg, #f9fbff, #eef3fb);
+      border-bottom: 1px solid var(--line);
+    }
+    .mock-title {
+      display: inline-flex;
+      padding: 7px 10px;
+      border-radius: 999px;
+      background: var(--accent-soft);
+      color: var(--accent);
+      font-size: 13px;
+      font-weight: 700;
+      margin-bottom: 14px;
+    }
+    .bar, .block {
+      border: 1px solid #cad4e3;
+      border-radius: 7px;
+      background: #fff;
+    }
+    .bar {
+      height: 38px;
+      display: flex;
+      align-items: center;
+      padding: 0 12px;
+      color: #3b4658;
+      font-size: 13px;
+      margin-bottom: 12px;
+    }
+    .block {
+      min-height: 42px;
+      margin-top: 10px;
+      padding: 12px;
+      color: #566173;
+      font-size: 14px;
+    }
+    .body { padding: 22px; }
+    .label {
+      margin-bottom: 10px;
+      color: var(--accent);
+      font-weight: 800;
+      font-size: 13px;
+      text-transform: uppercase;
+    }
+    h2 {
+      margin: 0 0 12px;
+      font-size: 24px;
+      line-height: 1.16;
+      letter-spacing: 0;
+    }
+    p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 16px;
+      line-height: 1.48;
+    }
+    .recommendation {
+      margin-top: 22px;
+      padding: 24px;
+      border: 1px solid #b9cff7;
+      border-radius: 8px;
+      background: #eef5ff;
+    }
+    .recommendation h2 { font-size: 26px; }
+    @media (max-width: 920px) {
+      h1 { font-size: 32px; }
+      .grid { grid-template-columns: 1fr; }
+      .card { min-height: 0; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Как собрать эфир, чтобы он и обучал, и продавал</h1>
+    <p class="subtitle">Три возможные драматургии для смешанной аудитории: школьники, родители, студенты и выпускники.</p>
+
+    <section class="grid" aria-label="Варианты драматургии">
+      <article class="card">
+        <div class="mock">
+          <div class="mock-title">A. Маршрут 2027</div>
+          <div class="bar">Мечта -> дедлайны -> стратегия -> документы -> IELTS -> оффер</div>
+          <div class="block">Шаг 1: куда реально поступать</div>
+          <div class="block">Шаг 2: как усилить профиль</div>
+          <div class="block">Шаг 3: почему IELTS нужен сейчас</div>
+        </div>
+        <div class="body">
+          <div class="label">Рекомендую</div>
+          <h2>Маршрут поступления 2027</h2>
+          <p>Самый понятный вариант: раскладываем путь по этапам, показываем дедлайны и в каждом этапе естественно подводим к программе.</p>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="mock">
+          <div class="mock-title">B. 7 ошибок</div>
+          <div class="block">Ошибка: выбирать страну без бюджета</div>
+          <div class="block">Ошибка: тянуть IELTS до весны</div>
+          <div class="block">Ошибка: писать мотивационное в последний момент</div>
+        </div>
+        <div class="body">
+          <div class="label">Острее</div>
+          <h2>Ошибки, которые срывают поступление</h2>
+          <p>Хорошо продает через риски. Но для эфира может звучать тревожно, если не балансировать решениями и кейсами.</p>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="mock">
+          <div class="mock-title">C. Кейсы как доказательство</div>
+          <div class="block">С тройками -> поступил</div>
+          <div class="block">После перерыва -> магистратура</div>
+          <div class="block">Слабый язык -> подготовительный год</div>
+        </div>
+        <div class="body">
+          <div class="label">Доверительнее</div>
+          <h2>Кейсы разных типов студентов</h2>
+          <p>Каждый узнает себя. Минус: без сильной структуры может превратиться в витрину результатов вместо обучающего эфира.</p>
+        </div>
+      </article>
+    </section>
+
+    <section class="recommendation">
+      <h2>Оптимально: A как основа + B и C внутри</h2>
+      <p>Главная линия: маршрут поступления на 2027 год. В каждом блоке добавляем одну типичную ошибку и один кейс, а потом показываем, как это закрывается в программе «Поступление + IELTS».</p>
+    </section>
+  </main>
+</body>
+</html>

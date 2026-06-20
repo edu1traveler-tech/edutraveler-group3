@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 330 150" role="img" aria-labelledby="title">
+  <title id="title">New York University</title>
+  <rect width="330" height="150" fill="#57068c"/>
+  <g fill="#fff">
+    <path d="M46 108V42h12c23 0 42 11 42 33 0 20-15 33-38 33H46zm16-14c13 0 22-7 22-19 0-12-9-19-22-19z"/>
+    <path d="M70 69c7-18 19-29 34-36-2 17-11 30-27 39 12-1 23 3 31 13-17 3-31-1-42-12z"/>
+    <text x="132" y="91" font-family="Arial, Helvetica, sans-serif" font-size="55" font-weight="800">NYU</text>
+  </g>
+</svg>
